@@ -16,7 +16,7 @@ alert("hello world");
 //other methods
 
 windows.document.write("hello world");
-document.write("hello world");
-window.alert( message );
-window.confirm( message );
-window.prompt( message, default_response );
+document.write("hello world"); //it give output in the terminal box
+window.alert( message ); //shows an alert box
+window.confirm( message ); //show a confirmation box on your website window
+window.prompt( message, default_response ); //prompt box take input from user. default response is the default text in the text box of the prompt window
