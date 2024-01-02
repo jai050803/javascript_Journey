@@ -17,6 +17,13 @@
     <h3 class="heading3">Example of how to use console.log</h3>
     <img class="example" src="screenshots/console_log.png" alt="console log" />
     <hr>
+
+    <h2>Alert, Prompt and Confirm in javascript</h2>
+    <p>This creates a dialogue boxes for the users to request a response from the user and to pause all the code in background until the request is satisfied.</p>
+    <p>all these are the methods of the windows object. This object is the highest level object that JavaScript can deal with in a browser.</p>
+    <p>Writing the windows is not necessary. Its presence is assumed even if omitted.</p>
+    <p><b>See the dialog_boxes.js file for the example on github page day1 folder</b></p>
+    <hr>
     <h2>Variables in JavaScript</h2>
     <h3 class='heading3'>definition</h3>
     <p>Variables in JavaScript are containers for storing data values. They are declared using var, let, or const keywords. Variables can hold various types of data such as numbers, strings, arrays, objects, or functions. They allow dynamic manipulation and referencing of data within a program.</p>
@@ -35,8 +42,8 @@
     </ul>
     <p><b>Note:</b>In modern JavaScript, let and const are preferred due to their block scoping behavior and stricter rules, which help in writing more maintainable and predictable code.</p>
 
-    <h2>Types of Variables</h2>
-    <p>Variables are of many types which include</p>
+    <h2>Types of Values Variables can store</h2>
+    <p>Variables can store data of many types which include</p>
     <ul>
         <li>Number: <span style="color:green;"><br>let age = 30;</span></li>
         <li>String: <span style="color:green;"><br>let name = "Jai";</span></li>
@@ -49,8 +56,26 @@
         <li>Undefined: <span style="color:green;"><br>let x; console.log(x);</span></li>
         <li>Null: <span style="color:green;"><br>let y = null;</span></li>
     </ul>
+    <hr>
+    <h2>Datatypes in javascript</h2>
+    <p>JavaScript has several built-in data types, categorized as primitive and non-primitive (or reference) types:</p>
+    <h4>primitive Data Types</h4>
+    <ul>
+        <li><b>Number :</b> Floating-point numbers, e.g., 3.14, 42, -10.</li>
+        <li><b>String :</b> Textual data enclosed in single or double quotes, e.g., "Hello", 'JavaScript'.</li>
+        <li><b>Boolean :</b> Represents true or false values, e.g., true, false.</li>
+        <li><b>Undefined : </b>Default value assigned to variables that are not initialized, e.g., let x;</li>
+        <li><b>Null :</b> Represents the intentional absence of any object value, e.g., let y = null</li>
+        <li><b>Symbol :</b> nique and immutable data type introduced in ES6, used for creating unique identifiers, 
+        e.g. const sym = Symbol("description")</li>
+    </ul>
+    <h4>Non-Primitive (Reference) Data Types:</h4>
 
-    
-
+    <ul>
+        <li><b>Object :</b> Key-value pairs representing complex data structures, e.g., { name: "John", age: 30 }.</li>
+        <li><b>Array :</b>Ordered collection of elements, e.g., [1, 2, 3, 4, 5].</li>
+        <li><b>Function :</b>A reusable block of code, e.g., function add(a, b) { return a + b; }.</li>
+        <li><b>Date :</b>Represents dates and times, e.g., const now = new Date();.</li>
+    </ul>
 </body>
 </html>
